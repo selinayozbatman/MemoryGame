@@ -14,7 +14,7 @@ public class Main {
             String cevap = scanner.nextLine();
 
             if(cevap.equals("yes")){
-                kartlar = OyunKayıt.kayittanAl();
+                kartlar = OyunKayit.kayittanAl();
                 return;
             }
         }
@@ -53,7 +53,7 @@ public class Main {
 
                 String kayit = scanner.nextLine();
                 if(kayit.equals("yes")){
-                    OyunKayıt.oyunKaydet(kartlar);
+                    OyunKayit.oyunKaydet(kartlar);
                 }
                 else
                     System.out.println("oyun kadedilmesi..");
